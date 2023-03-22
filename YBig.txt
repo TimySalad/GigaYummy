@@ -40,7 +40,7 @@ local Connections = { Active = {} }
 local Signal = {} Signal.__index = Signal
 local GetCharacter, CurrentColorPicker, Spectating
 
-_G.XESPBoxNamesESP = true
+_G.XESPBoxNamesESP = false
 _G.XESPBoxNamesBoxes = false
 
 local QUAD_SUPPORTED_EXPLOIT = pcall(function() Drawing.new('Quad'):Remove() end)
